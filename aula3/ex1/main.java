@@ -1,7 +1,7 @@
 package aula3.ex1;
 
 public class main {
-    public static void main(String[] args){
+    public static void Main(String[] args){
         SmartTV tv = new SmartTV();
         System.out.println("Status inicial: " + tv.getStatus());
         System.out.println("TV desligada");
