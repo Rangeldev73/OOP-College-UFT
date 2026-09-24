@@ -6,5 +6,7 @@ bin/
 out/
 *.log
 docs/
-# Ignorar configurações do VS Code (opcional)
+# Ignorar configurações das IDE (VS Code&&Intelij 
 .vscode/
+.idea
+poo-vscode.iml
