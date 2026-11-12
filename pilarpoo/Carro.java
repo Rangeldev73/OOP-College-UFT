@@ -1,16 +1,8 @@
 package pilarpoo;
 
-public class Carro {
-    private String chassi;
+public class Carro extends Automovel {
 
-    public String getChassi() {
-        return chassi;
-    }
-
-    public void setChassi(String chassi) {
-        this.chassi = chassi;
-    }
-
+    @Override
     public void ligar() {
         confereCombustivel();
         conferindoCambio();

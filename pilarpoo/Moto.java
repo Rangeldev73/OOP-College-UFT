@@ -1,13 +1,9 @@
 package pilarpoo;
 
-public class Moto {
-    private String chassi;
+public class Moto extends Automovel {
 
-    public String getChassi() {
-        return chassi;
-    }
-
-    public void setChassi(String chassi) {
-        this.chassi = chassi;
+    @Override
+    public void ligar() {
+        System.out.println("Moto LIGADA");
     }
 }
